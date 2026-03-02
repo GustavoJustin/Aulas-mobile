@@ -14,8 +14,9 @@ export default function Exemplo04() {
     ];
 
     return (
+        // Abertura do container
         <View style={styles.container}>
-            <Text style={styles.titulo}>Listas e Map</Text>
+            <Text style={styles.titulo}>Listas e Map</Text> {/* Lista para mostrar elementos de uma lista, em ordem */}
             <View style={styles.exemplo}>
                 <Text style={styles.subtitulo}>Map Comum</Text>
 
@@ -27,7 +28,7 @@ export default function Exemplo04() {
             </View>
 
             <View style={styles.exemplo}>
-                <Text style={styles.subtitulo}>Map em Objetos</Text>
+                <Text style={styles.subtitulo}>Map em Objetos</Text> {/* Lista que mostra elementos de listas diferentes */}
 
                 {alunos.map((aluno) => (
                     <Text key={aluno.id}>
@@ -37,7 +38,7 @@ export default function Exemplo04() {
             </View>
 
             <View style={styles.exemplo}>
-                <Text style={styles.subtitulo}>Map com Filter</Text>
+                <Text style={styles.subtitulo}>Map com Filter</Text> {/* Lista que mostra apenas quem tirou mais de 7 */}
                 
                 {alunos.filter((aluno) => aluno.nota >= 7).map((aluno) => (
                     <Text key={aluno.id}>
