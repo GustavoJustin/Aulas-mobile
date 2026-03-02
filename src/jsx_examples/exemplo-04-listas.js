@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#f4f4f4",
   },
   titulo: {
     fontSize: 20,
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     width: "80%",
     padding: 16,
     marginBottom: 16,
-    backgroundColor: "#fff",
+    backgroundColor: "#cb2727",
     borderRadius: 8,
   },
 });
