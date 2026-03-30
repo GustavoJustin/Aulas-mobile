@@ -33,10 +33,15 @@ import ExercicioView10 from './Atividade/exercicio10';
 
 //-------------------------------------------------------------------------------------
 
+import ExercicioSomativa1 from './somativa_1_mobile/Exercicio_1';
+import ExercicioSomativa2 from './somativa_1_mobile/Exercicio_2';
+
+//-------------------------------------------------------------------------------------
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView10 />
+      <ExercicioSomativa2 />
     </View>
   );
 }
