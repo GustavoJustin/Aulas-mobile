@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+
 import Exemplo01 from './jsx_examples/exemplo-01-estrutura';
 import Exemplo02 from './jsx_examples/exemplo-02-expressoes';
 import Exemplo03 from './jsx_examples/exemplo-03-condicionais';
@@ -38,10 +39,30 @@ import ExercicioSomativa2 from './somativa_1_mobile/Exercicio_2';
 
 //-------------------------------------------------------------------------------------
 
+import CartaoPerfil from './Props/ex_componente';
+
+//-------------------------------------------------------------------------------------
+
+import CardProdutoExercicio1 from './Props/atividade_props/Exercicio1.js';
+import CartaoUsuarioExercicio2 from './Props/atividade_props/Exercicio2.js';
+import CartaoSaudacaoExercicio3 from './Props/atividade_props/Exercicio3.js';
+import PerfilAlunoExercicio4 from './Props/atividade_props/Exercicio4.js';
+import BotaoDesafio from './Props/atividade_props/Desafio.js';
+
+//-------------------------------------------------------------------------------------
+
+import ContadorExample from './hooks/useState_example.js';
+import TelaDeLogin from './hooks/useRef_example.js';
+import TelaMoedas from './hooks/useEffect_example.js';
+
+//-------------------------------------------------------------------------------------
+
+import Recados from './hooks/atividade_hooks/Exercicio_1.js';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioSomativa2 />
+      <Recados />
     </View>
   );
 }
@@ -50,5 +71,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
